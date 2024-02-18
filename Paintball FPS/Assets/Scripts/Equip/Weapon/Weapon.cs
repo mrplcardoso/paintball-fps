@@ -15,7 +15,7 @@ public abstract class Weapon : MonoBehaviour, IEquipable
 	
 	public readonly int maxShots = 5;
 	protected int shots;
-	[SerializeField] bool infinityShots;
+	[SerializeField] protected bool infinityShots;
 
 	public virtual void Use() 
 	{ 

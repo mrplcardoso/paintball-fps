@@ -13,7 +13,7 @@ public class BallGun : Weapon
 	{
 		base.Awake();
 		if(container == null) { container = new GameObject("Ball Container"); }
-		ammoPool = new ObjectPooler<Projectile>(prefab, maxShots, Vector3.down * 5000, false, container.transform);
+		ammoPool = new ObjectPooler<Projectile>(prefab, maxShots, Vector3.down * 5000, infinityShots, container.transform);
 	}
 
 	public override void Use()
