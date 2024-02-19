@@ -5,12 +5,10 @@ using UnityEngine.AI;
 
 public class EnemyMove : MonoBehaviour
 {
-	NavMeshAgent agent;
-	UnitAttributes attributes;
+    UnitAttributes attributes;
+    public NavMeshAgent agent { get; private set; }
 
-	Vector3 target { get { return PlayerUnit.player.body.position; } }
-	float closeRange = 2;
-	bool inRange { get { return (transform.position - target).magnitude <= closeRange; } }
+	public Vector3 target { get { return PlayerUnit.player.body.position; } }
 	
 	void Awake()
 	{
@@ -23,10 +21,13 @@ public class EnemyMove : MonoBehaviour
 		agent.speed = attributes[AttributeType.Speed];
 	}
 
-	void Update()
-	{
-		if(inRange) { agent.SetDestination(transform.position); return; }
+	public void SetDestination(Vector3 destiny)
+	{ 
+		agent.SetDestination(destiny);
+	}
 
-		agent.SetDestination(target);
+	public void Stop()
+	{
+		agent.SetDestination(transform.position);
 	}
 }
