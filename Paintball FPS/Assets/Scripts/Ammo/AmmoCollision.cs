@@ -25,11 +25,15 @@ public class AmmoCollision : MonoBehaviour
 	void OnTriggerEnter(Collider collider)
 	{
 		Color c = GetComponent<Renderer>().material.color;
+		SplashMark mark = MarkPooler.instance.NextMark();
+		mark.transform.position = transform.position;
+		mark.Activate(3f);
 
-		if(collider.gameObject.TryGetComponent<Paintable>(out Paintable p))
+		/*if(collider.gameObject.TryGetComponent<Paintable>(out Paintable p))
 		{
-			p.Paint(c, transform.position, size);
-		}
+			//p.Paint(c, transform.position, size);
+
+		}*/
 
 		if(collider.gameObject.TryGetComponent<TakeDamage>(out TakeDamage t))
 		{
