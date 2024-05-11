@@ -9,7 +9,8 @@ public class AmmoCollision : MonoBehaviour
 	MatchColor match;
 	[SerializeField] IPoolableObject poolable;
 	[SerializeField] SplashParticle particle;
-	Vector3 size;
+
+	public Vector3 target { get { return PlayerUnit.player.body.position; } }
 
 	float damage => attributes[AttributeType.Damage];
 		
@@ -18,32 +19,20 @@ public class AmmoCollision : MonoBehaviour
 		attributes = GetComponentInChildren<UnitAttributes>();
 		match = GetComponentInChildren<MatchColor>();
 		poolable = GetComponentInChildren<IPoolableObject>();
-		size = GetComponentInChildren<Renderer>().bounds.size;
 		particle = Instantiate(particle, transform.position, Quaternion.identity);
  	}
 	
 	void OnTriggerEnter(Collider collider)
 	{
-		Color c = GetComponent<Renderer>().material.color;
-		SplashMark mark = MarkPooler.instance.NextMark();
-		mark.transform.position = transform.position;
-		mark.Activate(3f);
-
-		/*if(collider.gameObject.TryGetComponent<Paintable>(out Paintable p))
-		{
-			//p.Paint(c, transform.position, size);
-
-		}*/
-
 		if(collider.gameObject.TryGetComponent<TakeDamage>(out TakeDamage t))
 		{
 			if(collider.gameObject.TryGetComponent<MatchColor>(out MatchColor m))
 			{
-				if(m.color == match.color) { t.Damage(damage); }
+				if(m.name == match.name) { t.Damage(damage); }
 			}
 		}
 
-		particle.SetColor(c);
+		particle.SetColor(match.color);
 		particle.transform.position = transform.position;
 		particle.SetActive(true);
 		
