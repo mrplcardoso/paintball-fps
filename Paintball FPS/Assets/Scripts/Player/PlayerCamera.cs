@@ -5,19 +5,24 @@ using Utility.SceneCamera;
 
 public class PlayerCamera : MonoBehaviour
 {
+	PlayerUnit unit;
+
 	private void Awake()
 	{
+		unit = GetComponent<PlayerUnit>();
 		Cursor.lockState = CursorLockMode.Locked;
 	}
 
-	private void Update()
+	private void Start()
 	{
-		Rotation();
+		unit.FrameAction += Rotation;
+		unit.PostAction += CameraToHead;
 	}
 
-	private void LateUpdate()
+	private void OnDestroy()
 	{
-		CameraToHead();
+		unit.FrameAction -= Rotation;
+		unit.PostAction -= CameraToHead;
 	}
 
 	#region Rotation

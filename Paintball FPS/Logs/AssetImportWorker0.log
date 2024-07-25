@@ -1,0 +1,368 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marka/Documents/GitHub/paintball-fps/Paintball FPS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60044
+Successfully changed project path to: C:/Users/marka/Documents/GitHub/paintball-fps/Paintball FPS
+C:/Users/marka/Documents/GitHub/paintball-fps/Paintball FPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7896] Host "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 2773939674 [EditorId] 2773939674 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8GFU8V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7896] Host "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 2773939674 [EditorId] 2773939674 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8GFU8V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 59.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marka/Documents/GitHub/paintball-fps/Paintball FPS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.007246 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marka\Documents\GitHub\paintball-fps\Paintball FPS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marka\Documents\GitHub\paintball-fps\Paintball FPS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.5 KB). Loaded Objects now: 3866.
+Memory consumption went from 117.5 MB to 117.4 MB.
+Total: 2.510500 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.061500 ms  DeleteObjects: 0.065200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29116.520063 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Blue_ButtonRectangular.prefab
+  artifactKey: Guid(30ec7c588f3cb0040b721fb021d39d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Blue_ButtonRectangular.prefab using Guid(30ec7c588f3cb0040b721fb021d39d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c253b531bd843f62e68708c1837018f4') in 0.090301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Megapoly/Prefabs/ControlTable_1.prefab
+  artifactKey: Guid(c307df270aadc074992821aa7848cf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/ControlTable_1.prefab using Guid(c307df270aadc074992821aa7848cf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5eba3d59ee9e4f8c694574353be47f') in 0.012320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Megapoly/Prefabs/ControlTable_2.prefab
+  artifactKey: Guid(40535aa33ebc45340b3485d098918459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/ControlTable_2.prefab using Guid(40535aa33ebc45340b3485d098918459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87bb6d9f468b0f99efd3da5c993f129') in 0.011830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/PushButtonBluewFrame.prefab
+  artifactKey: Guid(41efb2f5a14b418479b3ad9bbd3ace29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/PushButtonBluewFrame.prefab using Guid(41efb2f5a14b418479b3ad9bbd3ace29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902af370991599b2fdd58ac74236774f') in 0.013106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Unit 2.prefab
+  artifactKey: Guid(8ba7be579e8a12343809a90e07c86595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Unit 2.prefab using Guid(8ba7be579e8a12343809a90e07c86595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aeeb1d20b485c14e9492dba3e99c60') in 0.028750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Roller_Spindle.prefab
+  artifactKey: Guid(7d2d2bf3fbe379c4da4fa0b674823144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Roller_Spindle.prefab using Guid(7d2d2bf3fbe379c4da4fa0b674823144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f5736f94f136af54388937f9e56fb7') in 0.011089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Megapoly/Prefabs/LampGreen.prefab
+  artifactKey: Guid(b1d2fd7f3c98f164d89678c55a731f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/LampGreen.prefab using Guid(b1d2fd7f3c98f164d89678c55a731f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bec525329a0fcbac639af05eb63d02a') in 0.012109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Megapoly/Prefabs/LampFrame.prefab
+  artifactKey: Guid(c9c44f485f404d64fa10dba3109a365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/LampFrame.prefab using Guid(c9c44f485f404d64fa10dba3109a365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c485005b4d545a0126e97e7162412c') in 0.009746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Megapoly/Prefabs/HandleLong.prefab
+  artifactKey: Guid(c1778cf121f838a48af708c867e3ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/HandleLong.prefab using Guid(c1778cf121f838a48af708c867e3ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff5f990e5582d09f51d634695b1b0f5') in 0.010206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Knob.prefab
+  artifactKey: Guid(7d69f11d164706041bc7b8b6dd5fe68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Knob.prefab using Guid(7d69f11d164706041bc7b8b6dd5fe68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b333896b35649ac119754be56eb1150a') in 0.010700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Knob_Big_Black.prefab
+  artifactKey: Guid(5355043e2b7feb74b8fcf581828b1e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Knob_Big_Black.prefab using Guid(5355043e2b7feb74b8fcf581828b1e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4612e554e86bf877f7d6e0f7312e847') in 0.011614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Megapoly/Prefabs/PushButtonRed.prefab
+  artifactKey: Guid(26027bad874f42744b7ec2ea8753a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/PushButtonRed.prefab using Guid(26027bad874f42744b7ec2ea8753a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8be51fe06d4c4163422c3aa6b49c493') in 0.011022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Plate.prefab
+  artifactKey: Guid(c772e80410bd04a4d8b0bb9a3ad009e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Plate.prefab using Guid(c772e80410bd04a4d8b0bb9a3ad009e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16b17243ec4d89cb544cf0f18a43105') in 0.010316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Megapoly/Prefabs/PushButtonGreenwFrame.prefab
+  artifactKey: Guid(63a4144830381a84ab8aa605a260d9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/PushButtonGreenwFrame.prefab using Guid(63a4144830381a84ab8aa605a260d9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76b8d03a4553476872e060774eb7244') in 0.012005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/TapeBox.prefab
+  artifactKey: Guid(fb9fdd6ad75c25446ac71baae9206827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/TapeBox.prefab using Guid(fb9fdd6ad75c25446ac71baae9206827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd29f2e7ef8fde4ba770db95e89c910e') in 0.011300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Gauge_Round_1.prefab
+  artifactKey: Guid(1dc9e4c2fca68ba4d959d4080b2754be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Gauge_Round_1.prefab using Guid(1dc9e4c2fca68ba4d959d4080b2754be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b87eda72c7a46faba66b20b714c0046') in 0.010277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Needle_Knob_Black_2.prefab
+  artifactKey: Guid(5493e4c545c68014685a0d78d96cc4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Needle_Knob_Black_2.prefab using Guid(5493e4c545c68014685a0d78d96cc4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530e38114d134bbe04c13b9ea8a65f74') in 0.010817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Monitor_Small.prefab
+  artifactKey: Guid(fec688c30393d5d41826a74dd003e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Monitor_Small.prefab using Guid(fec688c30393d5d41826a74dd003e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a110a1c38eec60aa9d417e06263bc746') in 0.011755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Unit3.prefab
+  artifactKey: Guid(f4a55a18a50d3f9409759dac5283d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Unit3.prefab using Guid(f4a55a18a50d3f9409759dac5283d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e845a02c28ef9bc6e74721e7f3764838') in 0.023489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Roller_1.prefab
+  artifactKey: Guid(f58fd39428c324c47bcb0902f93b2b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Roller_1.prefab using Guid(f58fd39428c324c47bcb0902f93b2b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46068ceeca74b9f16cd164a70c75f9d8') in 0.011839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Megapoly/Prefabs/VerticalTray.prefab
+  artifactKey: Guid(1d494ce7db3b02846920c4e2e4d3ebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/VerticalTray.prefab using Guid(1d494ce7db3b02846920c4e2e4d3ebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878e8b75b1a47a31619e49894067b860') in 0.013167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/RectUnit1.prefab
+  artifactKey: Guid(e39d8d0ebbb4568489f039d8a185958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/RectUnit1.prefab using Guid(e39d8d0ebbb4568489f039d8a185958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1500d070ce6feea5d0c77b441b1a93') in 0.021563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Magentic_Tape.prefab
+  artifactKey: Guid(a392cc9c7dc638e478ef94eda36bb858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Magentic_Tape.prefab using Guid(a392cc9c7dc638e478ef94eda36bb858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b42b591251ed2e60c3a33c19035ed5') in 0.011177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Megapoly/Prefabs/LampYellow.prefab
+  artifactKey: Guid(e13295f706c586244983138e65acdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/LampYellow.prefab using Guid(e13295f706c586244983138e65acdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae39387233ecf154c77da8e0a7c0dce4') in 0.012313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Megapoly/Prefabs/PushButtonGreen.prefab
+  artifactKey: Guid(1b194225153ad674ea67b143ac364500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/PushButtonGreen.prefab using Guid(1b194225153ad674ea67b143ac364500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00679ef1326bcfd906ab6ddfc7cfea') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Green_ButtonRectangular.prefab
+  artifactKey: Guid(350705dcfc988794b86d4fe023ddaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Green_ButtonRectangular.prefab using Guid(350705dcfc988794b86d4fe023ddaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949e5235e6999e0f1db6b9ebc855569d') in 0.010442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Unit 1.prefab
+  artifactKey: Guid(a2f125e459b626a42856ac768c3f884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Unit 1.prefab using Guid(a2f125e459b626a42856ac768c3f884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1764d8c2ce8845d7c1a66a85e418b311') in 0.018017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Needle_Knob_RedWhite.prefab
+  artifactKey: Guid(ecca9463a63616c44a6dacb9d8f6bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Needle_Knob_RedWhite.prefab using Guid(ecca9463a63616c44a6dacb9d8f6bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddbf55dbfa52bb7e3f2003e0dac6389') in 0.011406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Gauge_Wide.prefab
+  artifactKey: Guid(920d10b9fd6079a45a57515153f18927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Gauge_Wide.prefab using Guid(920d10b9fd6079a45a57515153f18927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894f281695c0bdb27e55374629f65829') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Megapoly/Prefabs/LampRed.prefab
+  artifactKey: Guid(38ae11bf41a76e446b1396621c1d3edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/LampRed.prefab using Guid(38ae11bf41a76e446b1396621c1d3edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80532e6754cde2ef6f1788654096b82a') in 0.011325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Megapoly/Prefabs/Long_Plate.prefab
+  artifactKey: Guid(e92ce5508368c734095d22e6082bcac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/Long_Plate.prefab using Guid(e92ce5508368c734095d22e6082bcac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e89f4aeceafdcd57807bb84c345c82') in 0.009215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Megapoly/Prefabs/ShortPlate.prefab
+  artifactKey: Guid(97622b50cf08a0e4fbd09369e55c65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Megapoly/Prefabs/ShortPlate.prefab using Guid(97622b50cf08a0e4fbd09369e55c65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32821bf661e2c658be69f60613bdffd') in 0.010609 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

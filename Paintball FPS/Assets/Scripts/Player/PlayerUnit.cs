@@ -1,4 +1,5 @@
 using UnityEngine;
+using Utility.Unit;
 using Utility.EventCommunication;
 
 public class PlayerUnit : UnitObject
