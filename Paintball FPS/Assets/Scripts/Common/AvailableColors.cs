@@ -10,7 +10,7 @@ public static class AvailableColors
 	public static readonly Color blue = Color.blue;
 	public static readonly Color green = Color.green;
 	public static readonly Color yellow = Color.yellow;
-	public static readonly Color purple = new Color(1, 0, 1, 1);
+	public static readonly Color purple = new Color(0.6f, 0, 1, 1);
 	//ordem fixa:(red, green, blue, alpha)
 
 	public static readonly Dictionary<ColorTag, Color>

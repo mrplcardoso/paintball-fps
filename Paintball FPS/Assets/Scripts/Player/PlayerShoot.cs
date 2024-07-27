@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
+using Utility.SceneCamera;
 
+[RequireComponent(typeof(PlayerAmmo))]
 public class PlayerShoot : MonoBehaviour
 {
 	PlayerUnit unit;
-	[SerializeField] WeaponHand hand;
+	PlayerAmmo ammo;
 
-	[SerializeField] AvailableColors.ColorTag currentColor;
+	[SerializeField] WeaponHand hand;
+	public WeaponHand weaponHand { get { return hand; } }
 
 	private void Awake()
 	{
 		unit = GetComponent<PlayerUnit>();
+		ammo = GetComponent<PlayerAmmo>();
 	}
 
 	private void Start()
@@ -33,6 +38,15 @@ public class PlayerShoot : MonoBehaviour
 		}
 
 		if (Input.GetMouseButtonDown(0))
-		{ hand.TriggerShoot((AvailableColors.ColorTag)Random.Range(0, (int)AvailableColors.ColorTag.Count)); }
+		{
+			if(!ammo.HasCurrentAmmo()) { return; }
+
+			Vector3 target;
+			RaycastHit hit = SceneCamera.instance.raycaster.Raycast(50, LayerMask.NameToLayer("Default"));
+			if(hit.collider != null) { target = hit.point; }
+			else { target = SceneCamera.instance.transform.position + SceneCamera.instance.transform.forward * 50; }
+
+			hand.TriggerShoot(ammo.Get(), target);
+		}
 	}
 }

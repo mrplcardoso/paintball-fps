@@ -1,12 +1,153 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\common\\availablecolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\availablecolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\player\\playerammo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerammo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\paintable\\paintablemeshall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paintable\\paintablemeshall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\common\\weaponhand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\weaponhand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\ammo management\\ammocell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ammo management\\ammocell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\ammo management\\ammoselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ammo management\\ammoselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\common\\cannon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\cannon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AvailableColors.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\AvailableColors.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\AvailableColors.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\AvailableColors.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Common\\AvailableColors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:47:02.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaintableMeshAll.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Paintable\\PaintableMeshAll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Paintable\\PaintableMeshAll.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Paintable\\PaintableMeshAll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Paintable\\PaintableMeshAll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:27:52.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeaponHand.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\WeaponHand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\WeaponHand.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\WeaponHand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Common\\WeaponHand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T01:22:57.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cannon.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\Cannon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\Cannon.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\Cannon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Common\\Cannon.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T01:20:41.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAmmo.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerAmmo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAmmo.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerAmmo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAmmo.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T00:31:58.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T00:21:00.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AmmoCell.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Ammo Management\\AmmoCell.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ammo Management\\AmmoCell.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Ammo Management\\AmmoCell.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ammo Management\\AmmoCell.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T23:39:17.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AmmoSelector.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Ammo Management\\AmmoSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ammo Management\\AmmoSelector.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Ammo Management\\AmmoSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ammo Management\\AmmoSelector.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T23:37:28.178Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

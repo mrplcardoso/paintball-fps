@@ -11,8 +11,8 @@ public class WeaponHand : MonoBehaviour
 		cannon = GetComponentInChildren<Cannon>();
 	}
 
-	public void TriggerShoot(AvailableColors.ColorTag color)
+	public void TriggerShoot(AvailableColors.ColorTag color, Vector3 target)
 	{
-		cannon.Shoot(color);
+		cannon.Shoot(color, target);
 	}
 }
