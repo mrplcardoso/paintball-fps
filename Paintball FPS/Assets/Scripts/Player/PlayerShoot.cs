@@ -5,7 +5,7 @@ using UnityEngine;
 using Utility.SceneCamera;
 
 [RequireComponent(typeof(PlayerAmmo))]
-public class PlayerShoot : MonoBehaviour
+public class PlayerShoot : MonoBehaviour, IEquipSlot
 {
 	PlayerUnit unit;
 	PlayerAmmo ammo;
@@ -39,14 +39,25 @@ public class PlayerShoot : MonoBehaviour
 
 		if (Input.GetMouseButtonDown(0))
 		{
-			if(!ammo.HasCurrentAmmo()) { return; }
+			//uncomment for apply ammo from player selection, instead of gun ammo selection
+			//if(!ammo.HasCurrentAmmo()) { return; }
 
 			Vector3 target;
 			RaycastHit hit = SceneCamera.instance.raycaster.Raycast(50, LayerMask.NameToLayer("Default"));
 			if(hit.collider != null) { target = hit.point; }
 			else { target = SceneCamera.instance.transform.position + SceneCamera.instance.transform.forward * 50; }
 
-			hand.TriggerShoot(ammo.Get(), target);
+			//uncomment for apply ammo from player selection, instead of gun ammo selection
+			//hand.TriggerShoot(ammo.Get(), target);
+
+			//Ignoring player ammo selection
+			hand.TriggerShoot(AvailableColors.ColorTag.Count, target);	
 		}
+	}
+
+	public void Equip(Gun gun)
+	{
+		//To do
+		// equip gun implementation
 	}
 }
