@@ -3,6 +3,7 @@ using Utility.EventCommunication;
 using Utility.Actions;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class UpdateGame : AbstractState
 {
@@ -15,15 +16,25 @@ public class UpdateGame : AbstractState
 		EventHub.Subscribe(EventList.AddUpdate, OnAddUpdate);
 	}
 
+	void EnterPause()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			_machine.Next<PauseGame>(0);
+		}
+	}
+
 	private void Update()
 	{
-		if(!update) { return; }
+		if (!update) { return; }
 
-		for(int i = 0; i < _updatables.Count; i++)
+		for (int i = 0; i < _updatables.Count; i++)
 		{
 			if (_updatables[i].isActive)
 			{ _updatables[i].FrameUpdate(); }
 		}
+
+		EnterPause();
 	}
 
 	private void FixedUpdate()
@@ -52,12 +63,14 @@ public class UpdateGame : AbstractState
 	{
  		_machine = machine;
 		update = true;
+		Time.timeScale = 1;
 		yield return null;
 	}
 
 	public override IEnumerator Exit()
 	{
 		yield return null;
+		Time.timeScale = 0;
 		update = false;
 	}
 

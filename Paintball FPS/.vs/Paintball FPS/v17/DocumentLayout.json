@@ -1,34 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\",
+  "WorkspaceRootPath": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\enemy\\spawner\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\spawner\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\player\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\assets\\scripts\\color ball\\gunitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\color ball\\gunitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\enemy\\unit\\enemylife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\unit\\enemylife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\assets\\scripts\\common\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\player\\playerlife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerlife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\paintball-fps\\paintball fps\\assets\\scripts\\player\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\color ball\\ballcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\color ball\\ballcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\assets\\scripts\\common\\weaponhand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\weaponhand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\equpiment\\iweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\equpiment\\iweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\assets\\scripts\\common\\iequipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\iequipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\enemy\\unit\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\unit\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\assets\\scripts\\color ball\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\color ball\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\enemy\\spawner\\enemypooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\spawner\\enemypooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\enemy\\unit\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\unit\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\github\\paintball-fps\\paintball fps\\assets\\scripts\\color ball\\colorball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\color ball\\colorball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\assets\\scripts\\enemy\\unit\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD7C3D-2200-ADFB-8986-ADCED38B8ECF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\unit\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,98 +57,163 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 228,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerUnit.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerUnit.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerUnit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerUnit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T21:19:38.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BallCollision.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\BallCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Color Ball\\BallCollision.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\BallCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Color Ball\\BallCollision.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:52:08.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyPooler.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Spawner\\EnemyPooler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Spawner\\EnemyPooler.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Spawner\\EnemyPooler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Spawner\\EnemyPooler.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA8wDEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:45:40.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Equpiment\\IWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Equpiment\\IWeapon.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Equpiment\\IWeapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Equpiment\\IWeapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:28:29.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyShoot.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Unit\\EnemyShoot.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Unit\\EnemyShoot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:40:51.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Spawner\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Spawner\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Spawner\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Spawner\\EnemySpawner.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:16:16.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyLife.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyLife.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Unit\\EnemyLife.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyLife.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Unit\\EnemyLife.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T20:06:31.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerShoot.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAADUAAAA+AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T18:29:35.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEquipSlot.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\IEquipSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\IEquipSlot.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\IEquipSlot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Common\\IEquipSlot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAkAAAA",
+              "DocumentIndex": 9,
+              "Title": "EnemyMove.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Unit\\EnemyMove.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Unit\\EnemyMove.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T18:24:43.844Z",
+              "WhenOpened": "2024-08-23T22:11:05.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GunItem.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\GunItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Color Ball\\GunItem.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\GunItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Color Ball\\GunItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "DocumentIndex": 10,
+              "Title": "ColorBall.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\ColorBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Color Ball\\ColorBall.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\ColorBall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Color Ball\\ColorBall.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T18:18:27.278Z",
+              "WhenOpened": "2024-08-24T20:35:40.101Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IInteractable.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\IInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\IInteractable.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\IInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Common\\IInteractable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T18:16:50.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerInteractor.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerInteractor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInteractor.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerInteractor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInteractor.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAmwB0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T18:08:17.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Gun.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\Gun.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Color Ball\\Gun.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Color Ball\\Gun.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Color Ball\\Gun.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T18:01:10.777Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WeaponHand.cs",
-              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\WeaponHand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\WeaponHand.cs",
-              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Common\\WeaponHand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Common\\WeaponHand.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA6wBgAAAAoAAAA",
+              "Title": "PlayerLife.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerLife.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerLife.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Player\\PlayerLife.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerLife.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T01:22:57.815Z",
+              "WhenOpened": "2024-08-23T20:37:46.979Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnemyUnit.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Unit\\EnemyUnit.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\GitHub\\paintball-fps\\Paintball FPS\\Assets\\Scripts\\Enemy\\Unit\\EnemyUnit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Unit\\EnemyUnit.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T20:06:28.712Z"
             }
           ]
         }

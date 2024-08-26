@@ -11,7 +11,7 @@ public class Cannon : MonoBehaviour
   //qualquer objeto que contenha o código "ColorBall"
   //No caso, isso está feito pelo BallPooler.
 
-  public void Shoot(AvailableColors.ColorTag color, Vector3 target)
+  public void Shoot(AvailableColors.ColorTag color, Vector3 target, string layer)
   {
     //2 - Verifica, a cada frame, se é permitido disparar
     //No caso, nessa implementação, o objeto que dispara a arma,
@@ -26,6 +26,7 @@ public class Cannon : MonoBehaviour
     if (current == null)
     { return; }
 
+    current.gameObject.layer = LayerMask.NameToLayer(layer);
     current.transform.position = transform.position;
     current.collision.SetColor(color);
     current.gameObject.SetActive(true);

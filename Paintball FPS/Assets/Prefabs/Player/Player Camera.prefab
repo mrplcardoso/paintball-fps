@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2322002080097653956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4817629990397712271}
+  m_Layer: 0
+  m_Name: Weapon Adjustment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4817629990397712271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322002080097653956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05, y: -0.175, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6187537066167135681}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4869498700045893665
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,6 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4872446816999915661}
   - component: {fileID: 4810870289610612087}
+  - component: {fileID: 713815499363653919}
   m_Layer: 0
   m_Name: SciFiHandGun
   m_TagString: Untagged
@@ -202,7 +234,7 @@ Transform:
   - {fileID: 4864138563485294783}
   - {fileID: 6187537066983329796}
   m_Father: {fileID: 6187537066167135681}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4810870289610612087
 Animator:
@@ -224,6 +256,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &713815499363653919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869598483185410245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a748f1a1a310c3e47817595d64e5e52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4869639644809341915
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +546,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4817629990397712271}
   - {fileID: 4872446816999915661}
   m_Father: {fileID: 6187537066725296052}
   m_RootOrder: 0
@@ -518,6 +563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8eb40dd044ad7419fbd47c15c10520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponAdjusment: {fileID: 0}
+  layer: Player Ball
 --- !u!1 &6187537066725296049
 GameObject:
   m_ObjectHideFlags: 0

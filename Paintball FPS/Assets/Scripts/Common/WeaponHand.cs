@@ -4,26 +4,43 @@ using UnityEngine;
 
 public class WeaponHand : MonoBehaviour
 {
-	public Gun gun { get; private set; }
+	public IWeapon weapon { get; private set; }
+	[SerializeField] Transform weaponAdjusment;
+
+	public AvailableColors.ColorTag color => weapon.color;
+
+	public string layer;
 
 	private void Awake()
 	{
-		gun = GetComponentInChildren<Gun>();
+		weapon = GetComponentInChildren<IWeapon>();
+		weaponAdjusment = GetComponentsInChildren<Transform>()[1];
+		if(weaponAdjusment == null) { Debug.LogError("No Weapon Adjusment configured in Inspector"); return; }
 	}
 
-	public void Equip(Gun gun)
+	public void Equip(IWeapon weapon)
 	{
-		Destroy(this.gun);
+		//Destroy previous weapon
+		if (this.weapon != null) { Destroy(this.weapon.gameObject); }
 
-		this.gun = gun;
-		/* To do: adjust position, rotation and scale of new gun */
+		//Instance new one
+		var instance = Instantiate(weapon.gameObject, transform);
+		this.weapon = instance.GetComponent<IWeapon>();
+
+		//adjust position and rotation
+		instance.transform.position = weaponAdjusment.position;
 	}
 
-	public void TriggerShoot(AvailableColors.ColorTag color, Vector3 target)
+	public void PaintWeapon(AvailableColors.ColorTag color)
 	{
-		if(gun == null)
-		{ Debug.Log("No gun equiped"); return; }
+		if (weapon != null)
+		{ weapon.SetColor(color); }
+	}
 
-		gun.Shoot(color, target);
+	public void TriggerShoot(GameObject parent)
+	{
+		if(weapon == null) { Debug.Log("No weapon equiped"); return; }
+
+		weapon.Trigger(parent, layer);
 	}
 }

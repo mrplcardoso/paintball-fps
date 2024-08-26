@@ -79,17 +79,22 @@
     <Compile Include="Assets\Scripts\Utilities\Unit\UnitObject.cs" />
     <Compile Include="Assets\Scripts\Common\IEquipSlot.cs" />
     <Compile Include="Assets\Scripts\Utilities\Event Communication\EventData.cs" />
+    <Compile Include="Assets\Scripts\Equpiment\IEquipment.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Unit\EnemyShoot.cs" />
     <Compile Include="Assets\Scripts\Utilities\Scene Camera\CameraRaycaster.cs" />
     <Compile Include="Assets\Scripts\Enemy\Unit\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\Enemy\Spawner\EnemyPooler.cs" />
-    <Compile Include="Assets\Scripts\Color Ball\GunItem.cs" />
+    <Compile Include="Assets\Scripts\Equpiment\IWeapon.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Game Scene\PauseGame.cs" />
     <Compile Include="Assets\Scripts\Common\Cannon.cs" />
     <Compile Include="Assets\Scripts\Paintable\IPaintable.cs" />
-    <Compile Include="Assets\Scripts\Color Ball\Gun.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerLife.cs" />
     <Compile Include="Assets\Scripts\Color Ball\BallCollision.cs" />
+    <Compile Include="Assets\Scripts\Equpiment\GunItem.cs" />
     <Compile Include="Assets\Scripts\Ammo Management\AmmoCell.cs" />
     <Compile Include="Assets\Scripts\Field.cs" />
+    <Compile Include="Assets\Scripts\Equpiment\Gun.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteractor.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerUnit.cs" />
@@ -104,6 +109,7 @@
     <Compile Include="Assets\Models\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAmmo.cs" />
     <Compile Include="Assets\Scripts\Utilities\Actions\IUpdatable.cs" />
+    <Compile Include="Assets\Scripts\Utilities\RandomStream\RandomStream.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

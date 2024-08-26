@@ -54,6 +54,11 @@ public class EnemyPooler : MonoBehaviour
 			if (!enemies[i].gameObject.activeInHierarchy)
 			{ return enemies[i]; }
 		}
-		return null;
+
+		instances++;
+		EnemyUnit b = Instantiate(prefab, start, Quaternion.identity);
+		b.gameObject.SetActive(false);
+		enemies.Add(b);
+		return b;
 	}
 }

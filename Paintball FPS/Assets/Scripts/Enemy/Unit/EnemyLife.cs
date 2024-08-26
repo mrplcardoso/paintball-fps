@@ -4,6 +4,7 @@ using UnityEngine;
 public class EnemyLife : MonoBehaviour, IDamageble
 {
 	EnemyColor color;
+	public GunItem gunItem;
 
 	void Awake()
 	{
@@ -13,6 +14,9 @@ public class EnemyLife : MonoBehaviour, IDamageble
 	public void Damage(float damage, AvailableColors.ColorTag incomingColor)
 	{
 		if(color.color == incomingColor)
-		{ gameObject.SetActive(false); }
+		{
+			Instantiate(gunItem, transform.position, Quaternion.identity);
+			gameObject.SetActive(false);
+		}
 	}
 }

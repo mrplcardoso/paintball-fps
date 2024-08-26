@@ -31,8 +31,10 @@ public class PlayerInteractor : MonoBehaviour
 			//If player press 'E' key, interaction between player and detected object is triggered.
 			if(Input.GetKeyDown(KeyCode.E))
 			{
+				GameObject incoming = hit.collider.gameObject;
 				//But only "IInteractable" object can be interacted with
-				if(TryGetComponent(out IInteractable interactable))
+				//TryGetComponent from incoming object
+				if(incoming.TryGetComponent(out IInteractable interactable))
 				{
 					interactable.Interaction(gameObject); //trigger interaction
 				}

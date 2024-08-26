@@ -17,6 +17,8 @@ public class EnemySpawner : MonoBehaviour, IUpdatable
   [SerializeField] int enemiesPerWave = 10;
   int count;
 
+  List<AvailableColors.ColorTag> lastColor;
+
 	//Se o jogador não estiver presente na cena,
   //usa a posição do Enemy Manager como centro.
 	Vector3 center { get
@@ -38,6 +40,7 @@ public class EnemySpawner : MonoBehaviour, IUpdatable
 
   private void Start()
   {
+    lastColor = new List<AvailableColors.ColorTag>();
     EventHub.Publish(EventList.AddUpdate, new EventData(this));
   }
 
@@ -48,9 +51,12 @@ public class EnemySpawner : MonoBehaviour, IUpdatable
 
     if (time > interval)
     {
+      Vector3 rand = SpawnPosition();
+      if(!ValidPosition(rand)) { return; }
+
       EnemyUnit unit = EnemyPooler.pooler.Next();
       unit.color.SetColor(SpawnColor());
-      unit.transform.position = SpawnPosition();
+      unit.transform.position = rand;
       unit.gameObject.SetActive(true);
 
       count++;
@@ -79,14 +85,29 @@ public class EnemySpawner : MonoBehaviour, IUpdatable
     return spawnPosition;
   }
 
+  bool ValidPosition(Vector3 position)
+  {
+    return Physics.Raycast(position, Vector3.down, 50);
+  }
+
   AvailableColors.ColorTag SpawnColor()
   {
     //Sorteia uma cor. 'enum' é conversível com 'int'.
     //O código abaixo executa Random.Range, que sorteia um numero entre dois.
     //Converte o ColorTag.Count para 'int', para tratá-lo como numero.
     //Depois do sorteio, converte o numeor sorteado para ColorTag.
-    return (AvailableColors.ColorTag)Random.Range(0,
-                  (int)AvailableColors.ColorTag.Count);
+    var c = (AvailableColors.ColorTag)Random.Range(0,
+                    (int)AvailableColors.ColorTag.Count);
+
+		lastColor.Add(c);
+
+		if (lastColor.Count > 3)
+    {
+      if(!lastColor.Contains(c = PlayerUnit.player.color))
+      { c = PlayerUnit.player.color; lastColor.Clear(); }
+    }
+
+    return c;
   }
 
   public void FrameUpdate()

@@ -4,11 +4,9 @@ using Unity.Collections;
 using UnityEngine;
 using Utility.SceneCamera;
 
-[RequireComponent(typeof(PlayerAmmo))]
 public class PlayerShoot : MonoBehaviour, IEquipSlot
 {
 	PlayerUnit unit;
-	PlayerAmmo ammo;
 
 	[SerializeField] WeaponHand hand;
 	public WeaponHand weaponHand { get { return hand; } }
@@ -16,7 +14,6 @@ public class PlayerShoot : MonoBehaviour, IEquipSlot
 	private void Awake()
 	{
 		unit = GetComponent<PlayerUnit>();
-		ammo = GetComponent<PlayerAmmo>();
 	}
 
 	private void Start()
@@ -39,25 +36,14 @@ public class PlayerShoot : MonoBehaviour, IEquipSlot
 
 		if (Input.GetMouseButtonDown(0))
 		{
-			//uncomment for apply ammo from player selection, instead of gun ammo selection
-			//if(!ammo.HasCurrentAmmo()) { return; }
-
-			Vector3 target;
-			RaycastHit hit = SceneCamera.instance.raycaster.Raycast(50, LayerMask.NameToLayer("Default"));
-			if(hit.collider != null) { target = hit.point; }
-			else { target = SceneCamera.instance.transform.position + SceneCamera.instance.transform.forward * 50; }
-
-			//uncomment for apply ammo from player selection, instead of gun ammo selection
-			//hand.TriggerShoot(ammo.Get(), target);
-
-			//Ignoring player ammo selection
-			hand.TriggerShoot(AvailableColors.ColorTag.Count, target);	
+			hand.TriggerShoot(SceneCamera.instance.gameObject);	
 		}
 	}
 
-	public void Equip(Gun gun)
+	public void Equip(IEquipment gun)
 	{
-		//To do
-		// equip gun implementation
+		//Convert gun (of IEquipment type) to IWeapon type
+		if (gun.gameObject.TryGetComponent(out IWeapon weapon))
+		{ hand.Equip(weapon); }
 	}
 }

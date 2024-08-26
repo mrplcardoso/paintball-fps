@@ -14,7 +14,9 @@ GameObject:
   - component: {fileID: 6746778853659490007}
   - component: {fileID: 6746778853659490006}
   - component: {fileID: 6746778853659490005}
-  m_Layer: 0
+  - component: {fileID: 4685245492340821500}
+  - component: {fileID: -2133057011580171845}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +94,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hand: {fileID: 0}
-  currentColor: 0
 --- !u!114 &6746778853659490005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,6 +108,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 10
   head: {fileID: 6746778854329938501}
+--- !u!114 &4685245492340821500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6746778853659489583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb13b20b58846e4e831f9df02ef8abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeBar: {fileID: 0}
+--- !u!114 &-2133057011580171845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6746778853659489583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedd0ce2d285f47419293caf9d40b33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &6746778854329938500
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6746778854329938501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
